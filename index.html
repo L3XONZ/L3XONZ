@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta name="description" content="L3XONZ - Collectif de créateurs de contenu francophones. Rejoignez-nous pour collaborer, partager et grandir ensemble.">
+  <meta name="keywords" content="L3XONZ, collectif, créateurs, Twitch, YouTube, francophone, partenariat, LeafCraft, Discord">
+  <meta name="author" content="L3XONZ">
+    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>L3XONZ - Plus qu’un collectif, une famille</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #0e0e0e;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(90deg, #1e1e1e, #2c2c2c);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      padding: 100px 40px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 40px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .cta-buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      background-color: #ff4757;
+      color: #fff;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .cta-buttons a:hover {
+      background-color: #e84118;
+    }
+    .about {
+      padding: 60px 40px;
+      text-align: center;
+    }
+    .about h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .about p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .members {
+      padding: 60px 40px;
+      background-color: #1c1c1c;
+    }
+    .members h2 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+    .member-card {
+      background-color: #2e2e2e;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+    .member-card h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #111;
+      padding: 20px 40px;
+      text-align: center;
+      font-size: 14px;
+      color: #ccc;
+    }
+    footer a {
+      color: #ccc;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  
+    a {
+      transition: all 0.3s ease;
+    }
+    a:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+    .cta-buttons a {
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+    .cta-buttons a:hover {
+      transform: scale(1.05);
+    }
+    
+  
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav {
+        margin-top: 10px;
+      }
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+      .cta-buttons a {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+      }
+      .container, .hero, .about, .members {
+        padding: 40px 20px;
+      }
+    }
+
+    /* Animations */
+    a {
+      transition: all 0.3s ease;
+    }
+    a:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+    .cta-buttons a {
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+    .cta-buttons a:hover {
+      transform: scale(1.05);
+    }
+    
+  
+    /* Animations et transitions améliorées */
+    body {
+      transition: background-color 0.5s ease;
+    }
+    header, footer {
+      transition: background-color 0.4s ease;
+    }
+    .cta-buttons a, .social-links a {
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+    .cta-buttons a:hover, .social-links a:hover {
+      transform: scale(1.07);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    }
+    .member-card, .container, .hero, .about {
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .member-card:hover {
+      transform: scale(1.03);
+      background-color: #2a2a2a;
+    }
+    h1, h2, h3, p {
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+    h1:hover, h2:hover, h3:hover {
+      transform: translateY(-2px);
+      color: #ff4757;
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo L3XONZ" />
+    <nav>
+      <a href="#">Accueil</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="membres.html">Membres</a>
+      <a href="contact.html">Contact</a>
+          <a href="partenariats.html">Partenariats</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>L3XONZ : Plus qu’un collectif, une famille.</h1>
+    <p>L3XONZ est un collectif québécois de créateurs de contenu francophones. Nous accueillons chaleureusement tous ceux qui parlent français, que vous soyez de Belgique, de Suisse, de France ou d’ailleurs. Si vous cherchez une vraie famille de créateurs avec qui grandir, collaborer et partager votre passion, vous êtes au bon endroit.</p>
+    <div class="cta-buttons">
+      <a href="https://www.youtube.com/@L3XONZ" target="_blank">Voir nos vidéos</a>
+      <a href="https://discord.gg/hMuXB9ND" target="_blank">Serveur Discord du collectif</a>
+    </div>
+  </section>
+
+  <section class="members" id="members">
+    <h2>Fondateurs</h2>
+    <div class="member-card">
+      <h3>Waxtez - Fondateur</h3>
+      <p>J’ai 23 ans et je suis le créateur du collectif L3XONZ. Mon objectif : rassembler des créateurs passionnés dans un environnement sain et stimulant.</p>
+    </div>
+    <div class="member-card">
+      <h3>PhoenixLeone - Co-Fondateur</h3>
+      <p>Âgé de 27 ans, je co-dirige L3XONZ avec la même passion pour le contenu et l’entraide. Ensemble, on va plus loin.</p>
+    </div>
+  </section>
+
+  
+  <section class="newsletter" style="padding: 40px; text-align: center; background-color: #1a1a1a;">
+    <h2 style="font-size: 28px; margin-bottom: 20px;">📬 Newsletter</h2>
+    <p style="font-size: 18px; margin-bottom: 20px;">Inscris-toi pour ne rien manquer de nos nouveautés, projets et vidéos.</p>
+    <form style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
+      <input type="email" placeholder="Votre adresse email" required
+        style="padding: 10px; border-radius: 5px; border: none; width: 250px;">
+      <button type="submit" style="padding: 10px 20px; border: none; border-radius: 5px; background-color: #ff4757; color: #fff; font-weight: bold; cursor: pointer;">S'abonner</button>
+    </form>
+  </section>
+    
+  <footer>
+    <p>&copy; 2025 L3XONZ. Tous droits réservés.</p>
+    <p>
+      <a href="#">Mentions légales</a> |
+      <a href="#">Contact</a> |
+      <a href="https://www.youtube.com/@L3XONZ" target="_blank">YouTube</a> |
+    <a href="partenariats.html">Partenariats</a> |
+      </p>
+  </footer>
+</body>
+</html>

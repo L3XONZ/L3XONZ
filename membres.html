@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta name="description" content="L3XONZ - Collectif de créateurs de contenu francophones. Rejoignez-nous pour collaborer, partager et grandir ensemble.">
+  <meta name="keywords" content="L3XONZ, collectif, créateurs, Twitch, YouTube, francophone, partenariat, LeafCraft, Discord">
+  <meta name="author" content="L3XONZ">
+    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Membres - L3XONZ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #0e0e0e;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #1e1e1e, #2c2c2c);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .container {
+      padding: 60px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h1 {
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .member-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .member-card {
+      background-color: #1f1f1f;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .member-card:hover {
+      transform: scale(1.03);
+    }
+    .member-card h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .member-card p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .social-links a {
+      display: inline-block;
+      margin: 5px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 5px;
+      background-color: #ff4757;
+      transition: background 0.3s ease;
+    }
+    .social-links a:hover {
+      background-color: #e84118;
+    }
+    footer {
+      background-color: #111;
+      padding: 20px 40px;
+      text-align: center;
+      font-size: 14px;
+      color: #ccc;
+    }
+    footer a {
+      color: #ccc;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  
+    a {
+      transition: all 0.3s ease;
+    }
+    a:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+    .cta-buttons a {
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+    .cta-buttons a:hover {
+      transform: scale(1.05);
+    }
+    
+  
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav {
+        margin-top: 10px;
+      }
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+      .cta-buttons a {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+      }
+      .container, .hero, .about, .members {
+        padding: 40px 20px;
+      }
+    }
+
+    /* Animations */
+    a {
+      transition: all 0.3s ease;
+    }
+    a:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+    .cta-buttons a {
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+    .cta-buttons a:hover {
+      transform: scale(1.05);
+    }
+    
+  
+    /* Animations et transitions améliorées */
+    body {
+      transition: background-color 0.5s ease;
+    }
+    header, footer {
+      transition: background-color 0.4s ease;
+    }
+    .cta-buttons a, .social-links a {
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+    .cta-buttons a:hover, .social-links a:hover {
+      transform: scale(1.07);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    }
+    .member-card, .container, .hero, .about {
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .member-card:hover {
+      transform: scale(1.03);
+      background-color: #2a2a2a;
+    }
+    h1, h2, h3, p {
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+    h1:hover, h2:hover, h3:hover {
+      transform: translateY(-2px);
+      color: #ff4757;
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo L3XONZ" />
+    
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="membres.html">Membres</a>
+      <a href="contact.html">Contact</a>
+          <a href="partenariats.html">Partenariats</a>
+    </nav>
+
+  </header>
+
+  <div class="container">
+    <h1>Les Membres du Collectif L3XONZ</h1>
+    <div class="member-grid">
+      <div class="member-card">
+        <h2>Waxtez</h2>
+        <p><strong>Rôle :</strong> Streameur & YouTubeur</p>
+        <p>Bonjour, je suis un streameur & YouTubeur de 23 ans. Je fais du stream sur les catégories jeux rétro et Just Chatting.</p>
+        <div class="social-links">
+          <a href="https://www.youtube.com/@Waxtez/featured" target="_blank">YouTube</a>
+        </div>
+      </div>
+
+      <div class="member-card">
+        <h2>Lord_Biscotte</h2>
+        <p><strong>Rôle :</strong> Créateur de contenu Twitch</p>
+        <p>Un ado adorant l'horreur, le gore et plein de choses bizarres, pas comme les autres.</p>
+        <div class="social-links">
+          <a href="https://www.tiktok.com/@l3_lordbiscotte?_t=ZN-8wk9ELq6PcE&_r=1" target="_blank">TikTok</a>
+          <a href="https://www.twitch.tv/l3lord_des_biscottes" target="_blank">Twitch</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <section class="newsletter" style="padding: 40px; text-align: center; background-color: #1a1a1a;">
+    <h2 style="font-size: 28px; margin-bottom: 20px;">📬 Newsletter</h2>
+    <p style="font-size: 18px; margin-bottom: 20px;">Inscris-toi pour ne rien manquer de nos nouveautés, projets et vidéos.</p>
+    <form style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
+      <input type="email" placeholder="Votre adresse email" required
+        style="padding: 10px; border-radius: 5px; border: none; width: 250px;">
+      <button type="submit" style="padding: 10px 20px; border: none; border-radius: 5px; background-color: #ff4757; color: #fff; font-weight: bold; cursor: pointer;">S'abonner</button>
+    </form>
+  </section>
+    
+  <footer>
+    <p>&copy; 2025 L3XONZ. Tous droits réservés.</p>
+    <p>
+      <a href="index.html">Accueil</a> |
+      <a href="a-propos.html">À propos</a> |
+      <a href="#">Contact</a> |
+      <a href="https://www.youtube.com/@L3XONZ" target="_blank">YouTube</a> |
+    <a href="partenariats.html">Partenariats</a> |
+      </p>
+  </footer>
+</body>
+</html>
